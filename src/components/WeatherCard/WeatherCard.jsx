@@ -9,12 +9,12 @@ function WeatherCard({ weatherData }) {
     );
   });
 
-  let weatherOption;
-
-  if (filteredOptions.length === 0) {
-    weatherOption = defaultWeatherOptions[weatherData.isDay ? "day" : "night"];
+  let thisWeatherOption;
+  if (!weatherOption) {
+    thisWeatherOption =
+      defaultWeatherOptions[weatherData.isDay ? "day" : "night"];
   } else {
-    weatherOption = filteredOptions[0];
+    thisWeatherOption = weatherOption;
   }
 
   return (
