@@ -19,10 +19,12 @@
   font-weight: 700;
   border: none;
   background: none;
+  color: #000;
 }
 
 .header__date-and-location {
   margin: 0;
+  color: #000;
 }
 
 .header__user-container {
@@ -33,4 +35,5 @@
 
 .header__user-name {
   margin: 0;
+  color: #000;
 }
