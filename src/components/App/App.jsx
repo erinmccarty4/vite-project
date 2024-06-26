@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+
+import viteLogo from "/vite.svg";
 import "../App/App.css";
 import { coordinates, APIkey } from "../../utils/constants";
 import Header from "../Header/Header";
