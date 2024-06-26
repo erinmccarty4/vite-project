@@ -4,6 +4,7 @@
   display: flex;
   border-radius: 12px;
   overflow: hidden;
+  color: #fff;
 }
 
 .weather-card__image {
