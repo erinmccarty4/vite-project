@@ -8,12 +8,12 @@
 }
 
 .modal__caption {
-  margin: 0;
-  padding-top: 20px;
-  padding-left: 32px;
-  font-family: "CabinetGrotesk-Medium";
-  font-size: 20px;
-  line-height: 24px;
+    font-family: Cabinet Grotesk;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin: 20px 0 0 32px;
 }
 
 .modal__weather {
