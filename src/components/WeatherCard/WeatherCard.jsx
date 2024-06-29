@@ -2,7 +2,7 @@ import "./weatherCard.css";
 import { weatherOptions, defaultWeatherOptions } from "../../utils/constants";
 
 function WeatherCard({ weatherData }) {
-  const filteredOptions = weatherOptions.find((option) => {
+  const weatherOption = weatherOptions.find((option) => {
     return (
       option.day === weatherData.isDay &&
       option.condition === weatherData.condition
@@ -21,8 +21,8 @@ function WeatherCard({ weatherData }) {
     <section className="weather-card">
       <p className="weather-card__temp">{weatherData.temp.F} &deg;</p>
       <img
-        src={weatherOption?.url}
-        alt={weatherOption?.condition}
+        src={thisWeatherOption?.url}
+        alt={thisWeatherOption?.condition}
         className="weather-card__image"
       />
     </section>
