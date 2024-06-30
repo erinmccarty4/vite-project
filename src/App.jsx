@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
 import "./App.css";
 import { coordinates, APIkey } from "../../utils/constants";
 import Header from "../Header/Header";
